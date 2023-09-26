@@ -1,3 +1,7 @@
+# Exemplo lista 4 questão 7
+# Sistemas Para Internet - p1 b
+# Aluno: Danilo Pereira Viana
+
 h_extras = int(input('Digite a quantidade de horas extras: '))
 
 h_faltou = int(input('Digite a quantidade de horas que faltou: '))

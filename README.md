@@ -1,3 +1,3 @@
-# Aulas_Intro_Programacao_p1
+# Aula 09/10/2023
  
-Repositorio com as aulas de Introdução a Programação. Cada branch é uma aula.
+Aula do dia 09/10/2023

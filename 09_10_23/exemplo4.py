@@ -6,5 +6,8 @@ filmes = {
     3: ['Ilha do medo', 'Suspense', 123, 120],
 }
 
-for filme in filmes.values:
-    print(filme)
+for indice in filmes:
+    print(f'filme: {filmes[indice][0]}')
+    print(f'genero: {filmes[indice][1]}')
+    print(f'Duração: {filmes[indice][3]}')
+    print(f'---------')

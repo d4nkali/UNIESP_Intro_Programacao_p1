@@ -1,3 +1,5 @@
+# Exercicio 1
+
 from random import randint
 
 Q = []
@@ -5,4 +7,14 @@ Q = []
 for numero in range(20):
     Q.append(randint(1, 100))
 
-print(Q)
+# Variavel de controle
+maior = -1
+menor = 101
+
+for i in Q:
+    if maior < i:
+        maior = i
+    
+    if menor > i:
+        menor = i
+

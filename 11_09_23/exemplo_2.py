@@ -2,12 +2,12 @@
 
 toques = 5
 while toques > 0:
-    print(f'Maes solteiras a um raio de {toques} km')
+    print(f'Localização do celular em {toques} km')
     toques -= 1
 
 print('\n agora o for')
 print('\n')
 
 for i in range(69,0,-1):
-    print(f'Maes solteiras a um raio de {i} km')
+    print(f'Localização do celular em {i} km')
     print('\n')

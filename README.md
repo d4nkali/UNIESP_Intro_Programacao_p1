@@ -1,3 +1,3 @@
-# Aula 09/10/2023
+# UNIESP_Intro_Programacao_p1
  
- Repositorio com a aula do dia 09/10/2023 de Introdução a Programação.
+Repositorio com as aulas de Introdução a Programação. Cada pasta é uma aula.

@@ -18,3 +18,10 @@ for i in Q:
     if menor > i:
         menor = i
 
+print(Q)
+print()
+print(f'O maior valor é: {maior}')
+print(f'O menor valor é: {menor}')
+print()
+print(max(Q))
+print(min(Q))

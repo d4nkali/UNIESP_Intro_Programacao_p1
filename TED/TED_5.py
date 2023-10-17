@@ -1,4 +1,6 @@
-# 2) Faça um programa que mostre as tabuadas dos números de 1 a 10.
+# Aluno: Danilo Pereira Viana / Sistemas da Internet p1B
+
+# Faça um programa que mostre as tabuadas dos números de 1 a 10.
 
 for tabuada_1 in range(1, 11):
 

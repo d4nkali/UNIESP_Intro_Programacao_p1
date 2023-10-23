@@ -1,3 +1,4 @@
 # Pasta venv
 
 .venv/
+.venv/lib

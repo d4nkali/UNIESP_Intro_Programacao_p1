@@ -1,51 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-
-    <meta charset="UTF-8">
-    <title>Teste</title>
-    <style>
-
-        body {
-
-            color: white;
-            background-color: black;
-
-        }
-
-        h1 {
-
-            text-align: center;
-            color: darkgreen;
-
-        }
-
-    </style>
-
-</head>
-
-
-<body>
-    
-<h1>Glossarios de termos tecnicos</h1>
-<hr>
-<br>
-<p>
-
-    <ul>
-
-        <li><b>Algoritmos:</b> Sequência de instruções que resolvem um problema.</li>
-        <li><b>Lógica:</b> O uso correto das ordem da razão</li>
-        <li><b>Variavel:</b> Um dado armazenado que possa mudar ao decorrer do tempo</li>
-        <li><b>Python:</b> Uma linguagem de programação de alto nível e fácil de aprender.</li>
-        <li><b>Visual Studio Code:</b> Uma IDE de diversas linguagens e gratuito.</li>
-
-    </ul>
-
-</p>
-
-</body>
-
-
-</html>
+{% extends "modelo.html" %}
+{% block conteudo %}
+    <h1>Olá, mundo!</h1>
+    <p><a href="/sobre-equipe>">Proxima pagina</a></p>
+{% endblock %}

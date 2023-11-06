@@ -27,3 +27,11 @@ with open('06_11_23\\teste.txt', 'r', encoding='utf-8') as file_object:
 print()
 print('###################################################')
 print()
+
+# Leitura do arquivo por linha, porem não imprime
+
+with open('06_11_23\\teste.txt', 'r', encoding='utf-8') as file_object:
+    linhas = file_object.readlines()
+
+print(f'O tipo de linhas é: {type(linhas)}')
+print(f'A quantidade de linhas é: {len(linhas)}')

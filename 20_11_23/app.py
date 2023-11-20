@@ -1,5 +1,5 @@
-import os
 from flask import Flask, render_template
+import os
 
 app = Flask(__name__)
 
@@ -24,6 +24,23 @@ def ola():
 @app.route('/sobre-equipe')
 def sobre():
     return render_template('sobre.html')
+
+@app.route('/glossario')
+def glossario():
+
+    glossario_de_termos = []
+
+    with open(
+            'bd_glossario.csv',
+            newline='', encoding='utf-8') as arquivo:
+        reader = csv.reader(arquivo, delimiter=';')
+        for l in reader:
+            glossario_de_termos.append(l)
+
+
+    return render_template(
+        'glossario.html'
+        )
 
 
 if __name__ == "__main__":

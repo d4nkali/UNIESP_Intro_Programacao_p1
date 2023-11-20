@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import os
+import csv
 
 app = Flask(__name__)
 
@@ -41,6 +42,7 @@ def glossario():
     return render_template(
         'glossario.html'
         )
+
 
 
 if __name__ == "__main__":

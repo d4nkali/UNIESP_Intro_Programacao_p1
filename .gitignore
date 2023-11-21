@@ -6,3 +6,7 @@
 # Pasta do vscode
 
 .vscode/*
+
+# Pasta do Pycharm
+
+.idea/*
